@@ -25,16 +25,28 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+ * @brief Datos del alumno Alejandro Virgillo
+ * 
+ */
 static const struct alumno_s ALEJANDRO_VIRGILLO = {
     .apellidos = "VIRGILLO",
     .nombres = "Alejandro Daniel",
     .documento = "38.996.297",
 };
 
+/**
+ * @brief Datos de los alumnos
+ * 
+ */
 const alumno_t ALUMNOS[] = {
     &ALEJANDRO_VIRGILLO,
 };
 
+/**
+ * @brief Cantidad de alumnos totales
+ * 
+ */
 const int CANTIDAD_ALUMNOS = (sizeof(ALUMNOS) / sizeof(alumno_t));
 
 /*=====[Definitions of private global variables]=============================*/
